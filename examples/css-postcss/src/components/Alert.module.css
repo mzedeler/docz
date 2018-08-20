@@ -1,3 +1,7 @@
+:root {
+  --info-color: #5352ED;
+}
+
 .alert {
   padding: 15px 20px;
   background: white;
@@ -6,7 +10,7 @@
 }
 
 .info {
-  background: #5352ED;
+  background: var(--info-color);
 }
 
 .positive {
